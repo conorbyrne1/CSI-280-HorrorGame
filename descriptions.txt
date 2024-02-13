@@ -1,0 +1,45 @@
+John F. Kennedy
+  -Sniper Rifle
+    -https://assetstore.unity.com/packages/3d/props/weapons/m40a3-sniper-rifle-107756 
+  -Cuban Flag
+    -https://assetstore.unity.com/packages/3d/props/realistic-flag-pack-116392 
+  -Missile
+    -https://assetstore.unity.com/packages/3d/props/weapons/free-3d-missile-104264 
+Abraham Lincoln
+  -Top hat
+    -Can be done custom
+  -Cannon
+    -https://assetstore.unity.com/packages/3d/props/weapons/16th-century-cannon-70417 
+  -Theater Masks
+    -https://assetstore.unity.com/packages/3d/props/clothing/accessories/masks-pack-2-157577 
+George Washington
+  -Powder Wig
+    -(something similar to this) https://assetstore.unity.com/packages/3d/props/clothing/ultimate-hat-washington-133242 
+  -Axe
+    -https://assetstore.unity.com/packages/3d/props/weapons/axe-45935 
+  -Musket
+    --Maybe this (https://assetstore.unity.com/packages/3d/props/weapons/free-stylized-weapons-216047) 
+Donald Trump
+  -Orange Wig
+  -Fast Food
+    -https://assetstore.unity.com/packages/3d/props/food/fast-food-low-poly-3d-art-247217 
+  -Big Gold T
+    -Can be done custom
+Joe Biden
+  -Laptop 
+    -https://assetstore.unity.com/packages/3d/props/electronics/laptop-s-package-83569 
+  -Milk
+    -https://assetstore.unity.com/packages/3d/props/food/carton-of-milk-4k-pbr-162383 
+  -Sleeping Cap
+    -https://assetstore.unity.com/packages/3d/hats-pack-urp-163011 
+George W. Bush
+  -Texas Flag
+    -https://assetstore.unity.com/packages/3d/props/realistic-flag-pack-116392 
+  -Fighter Pilot Helmet
+  =A literal bush
+    -https://assetstore.unity.com/packages/tools/terrain/bush-or-grass-bend-as-detail-mesh-210986 
+Richard Nixon
+  -Thief's Mask
+  -Resignation Letter (?)
+  -Vietnam Flag
+    -https://assetstore.unity.com/packages/3d/props/realistic-flag-pack-116392 
