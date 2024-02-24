@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -43,14 +44,17 @@ public class PlayerMovement : MonoBehaviour
     void Update()
     {
         // Ground check
-        grounded = Physics.Raycast(transform.position, Vector3.down, playerHeight * 0.5f + 0.2f, whatIsGround);
-
+        grounded = Physics.Raycast(transform.position, Vector3.down, playerHeight * 0.5f, whatIsGround);
+        
         MyInput();
         SpeedControl();
 
         // handle drag
-        if(grounded)
+        if(grounded == true)
+        {
             rb.drag = groundDrag;
+            Debug.Log("grounded");
+        }    
         else
             rb.drag = 0;
         
