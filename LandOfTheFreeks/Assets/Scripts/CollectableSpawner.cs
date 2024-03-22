@@ -15,6 +15,8 @@ public class CollectableSpawner : MonoBehaviour
 
     void SpawnCollectibles()
     {
+        // Shuffle the collectible prefabs array to ensure no duplicates
+        ShuffleArray(collectiblePrefabs);
         // Make sure the number of items to spawn doesn't exceed the number of spawn points
         numberOfItemsToSpawn = Mathf.Min(numberOfItemsToSpawn, spawnPoints.Length);
 
@@ -33,11 +35,26 @@ public class CollectableSpawner : MonoBehaviour
             // Mark the spawn point as used
             usedSpawnPoints[randomIndex] = true;
 
-            // Randomly select a collectible prefab
-            GameObject selectedPrefab = collectiblePrefabs[Random.Range(0, collectiblePrefabs.Length)];
+            //// Randomly select a collectible prefab
+            //GameObject selectedPrefab = collectiblePrefabs[Random.Range(0, collectiblePrefabs.Length)];
 
-            // Instantiate the selected collectible at the chosen spawn point
-            Instantiate(selectedPrefab, spawnPoints[randomIndex].position, Quaternion.identity);
+
+            //// Instantiate the selected collectible at the chosen spawn point
+            //Instantiate(selectedPrefab, spawnPoints[randomIndex].position, Quaternion.identity);
+
+            Instantiate(collectiblePrefabs[i], spawnPoints[randomIndex].position, Quaternion.identity);
+        }
+    }
+
+    void ShuffleArray(GameObject[] array)
+    {
+        // Fisher-Yates shuffle algorithm
+        for (int i = array.Length - 1; i > 0; i--)
+        {
+            int randomIndex = Random.Range(0, i + 1);
+            GameObject temp = array[randomIndex];
+            array[randomIndex] = array[i];
+            array[i] = temp;
         }
     }
 }
