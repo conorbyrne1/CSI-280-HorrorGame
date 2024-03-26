@@ -4,5 +4,14 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/White House.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/Title Scene.unity
+    guid: 194672aa6e80f1b45b8a2d85fd8f74e4
+  - enabled: 1
+    path: Assets/Scenes/How to Play.unity
+    guid: 77c774e54047317469d4ddde3c468c09
   m_configObjects: {}
