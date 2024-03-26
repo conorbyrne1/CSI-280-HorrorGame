@@ -21647,8 +21647,13 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.rsp",
       "DisplayName": "Writing Assembly-CSharp.rsp",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
+      "PayloadOffset": 1462868,
+      "PayloadLength": 35494,
+=======
       "PayloadOffset": 1635859,
       "PayloadLength": 35770,
+>>>>>>> 91322737cab1ea333a39abc5f31b36556935a6dc
       "PayloadDebugContentSnippet": "-target:library\r\n-out:\"Library",
       "Inputs": [],
       "Outputs": [
@@ -21660,7 +21665,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.rsp2",
       "DisplayName": "Writing Assembly-CSharp.rsp2",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
+      "PayloadOffset": 1498449,
+=======
       "PayloadOffset": 1671716,
+>>>>>>> 91322737cab1ea333a39abc5f31b36556935a6dc
       "PayloadLength": 0,
       "PayloadDebugContentSnippet": "",
       "Inputs": [],
@@ -21918,6 +21927,7 @@
         "Assets/Scripts/PlayerCam.cs",
         "Assets/Scripts/PlayerMovement.cs",
         "Assets/Scripts/recordprebaf.cs",
+        "Assets/Scripts/SceneChange.cs",
         "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs",
         "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs",
         "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark02.cs",
@@ -22212,8 +22222,13 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll.mvfrm.rsp",
       "DisplayName": "Writing Assembly-CSharp.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
+      "PayloadOffset": 1498545,
+      "PayloadLength": 9366,
+=======
       "PayloadOffset": 1671812,
       "PayloadLength": 9729,
+>>>>>>> 91322737cab1ea333a39abc5f31b36556935a6dc
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
       "Outputs": [
@@ -22465,9 +22480,15 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.UnityAdditionalFile.txt",
       "DisplayName": "Writing Assembly-CSharp-Editor.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
+      "PayloadOffset": 1508024,
+      "PayloadLength": 49,
+      "PayloadDebugContentSnippet": "C:\\Users\\Conor\\Desktop\\CSI-280",
+=======
       "PayloadOffset": 1681654,
       "PayloadLength": 72,
       "PayloadDebugContentSnippet": "C:\\Users\\Kaiden\\Documents\\GitH",
+>>>>>>> 91322737cab1ea333a39abc5f31b36556935a6dc
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.UnityAdditionalFile.txt"
@@ -22478,8 +22499,13 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.rsp",
       "DisplayName": "Writing Assembly-CSharp-Editor.rsp",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
+      "PayloadOffset": 1508166,
+      "PayloadLength": 35480,
+=======
       "PayloadOffset": 1681819,
       "PayloadLength": 35768,
+>>>>>>> 91322737cab1ea333a39abc5f31b36556935a6dc
       "PayloadDebugContentSnippet": "-target:library\r\n-out:\"Library",
       "Inputs": [],
       "Outputs": [
@@ -22491,7 +22517,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.rsp2",
       "DisplayName": "Writing Assembly-CSharp-Editor.rsp2",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
+      "PayloadOffset": 1543740,
+=======
       "PayloadOffset": 1717681,
+>>>>>>> 91322737cab1ea333a39abc5f31b36556935a6dc
       "PayloadLength": 0,
       "PayloadDebugContentSnippet": "",
       "Inputs": [],
@@ -22823,8 +22853,13 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.dll.mvfrm.rsp",
       "DisplayName": "Writing Assembly-CSharp-Editor.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
+      "PayloadOffset": 1543843,
+      "PayloadLength": 10320,
+=======
       "PayloadOffset": 1717784,
       "PayloadLength": 10683,
+>>>>>>> 91322737cab1ea333a39abc5f31b36556935a6dc
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
       "Outputs": [
