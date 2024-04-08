@@ -7,6 +7,8 @@ public class CollectableCount : MonoBehaviour
 {
     TMPro.TMP_Text text;
     int count;
+    public int total;
+    public bool gotall = false;
 
     private void Awake()
     {
@@ -25,6 +27,8 @@ public class CollectableCount : MonoBehaviour
 
     void UpdateCount()
     {
-        text.text = $"Items Collected: {count} / {Collectable.total}";
+        text.text = $"Items Collected: {count} / {total}";
+        if (count == total)
+            gotall = true;
     }
 }
