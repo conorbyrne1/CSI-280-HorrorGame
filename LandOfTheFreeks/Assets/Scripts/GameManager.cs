@@ -6,8 +6,9 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     public GameObject[] bossPrefabs;
-    public GameObject collectibleSpawnerLincoln;
+    public GameObject collectibleSpawnerBiden;
     public GameObject collectibleSpawnerTrump;
+    public GameObject collectibleSpawnerObama;
 
     void Start()
     {
@@ -26,32 +27,54 @@ public class GameManager : MonoBehaviour
        // DeactivateAllSpawners();
 
         // Example: Adjust collectibles based on boss type
-        if (boss.name == "basic-boss(Clone)" || boss.name == "basic-boss")
+        if (boss.name == "Biden(Clone)" || boss.name == "Biden")
         {
-            Debug.Log("lincoln");
+            Debug.Log("Biden");
             // Enable collectible spawner for boss 1
-            collectibleSpawnerLincoln.SetActive(true);
+            collectibleSpawnerBiden.SetActive(true);
 
             // Disable collectible spawner for boss 2
             collectibleSpawnerTrump.SetActive(false);
+
+            // Disable collectible spawner for boss 3
+            collectibleSpawnerObama.SetActive(false);
         }
-        else if (boss.name == "basic-boss 1(Clone)" || boss.name == "basic-boss 1")
+        else if (boss.name == "Trump(Clone)" || boss.name == "Trump")
         {
             Debug.Log("trump");
             // Enable collectible spawner for boss 2
             collectibleSpawnerTrump.SetActive(true);
 
             // Disable collectible spawner for boss 1
-            collectibleSpawnerLincoln.SetActive(false);
+            collectibleSpawnerBiden.SetActive(false);
+
+            // Disable collectible spawner for boss 3
+            collectibleSpawnerObama.SetActive(false);
         }
         // Add more conditions for other boss types if needed
+
+        else if (boss.name == "Obama(Clone)" || boss.name == "Obama")
+        {
+            Debug.Log("obama");
+            // Enable collectible spawner for boss 3
+            collectibleSpawnerObama.SetActive(true);
+
+            // Disable collectible spawner for boss 2
+            collectibleSpawnerTrump.SetActive(false);
+
+            // Disable collectible spawner for boss 1
+            collectibleSpawnerBiden.SetActive(false);
+
+            
+        }
     }
 
     // You may call this method from somewhere in your code to deactivate all collectible spawners
     void DeactivateAllSpawners()
     {
-        collectibleSpawnerLincoln.SetActive(false);
+        collectibleSpawnerBiden.SetActive(false);
         collectibleSpawnerTrump.SetActive(false);
+        collectibleSpawnerObama.SetActive(false);
         Debug.Log("turns 'off' both");
 
     }
