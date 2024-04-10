@@ -24,6 +24,8 @@ public class BunkerScript : MonoBehaviour
         {
             BunkerUI.SetActive(true);
             Debug.Log("Player in the swag zone");
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
         }
     }
     private void OnTriggerExit(Collider other)
@@ -32,6 +34,8 @@ public class BunkerScript : MonoBehaviour
         {
             BunkerUI.SetActive(false);
             Debug.Log("Player deies");
+            Cursor.lockState = CursorLockMode.Locked;
+            Cursor.visible = false;
         }
     }
 }
