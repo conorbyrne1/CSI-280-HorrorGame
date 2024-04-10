@@ -1,40 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Buttons : MonoBehaviour
 {
-    public GameObject collectibleSpawnerBiden;
-    public GameObject collectibleSpawnerTrump;
-    public GameObject collectibleSpawnerObama;
-
-    public GameObject BidenButton;
-
-    bool BidenActive;
-    bool TrumpActive;
-    bool ObamaActive;
-
     // Start is called before the first frame update
     void Start()
     {
-        if (collectibleSpawnerBiden.activeSelf == true)
-        {
-            BidenActive = true;
-            TrumpActive = false;
-            ObamaActive = false;
-        }
-        else if(collectibleSpawnerTrump.activeSelf == true)
-        {
-            TrumpActive = true;
-            BidenActive = false;
-            ObamaActive = false;
-        }
-        else if (collectibleSpawnerObama.activeSelf == true)
-        {
-            ObamaActive = true;
-            TrumpActive = false;
-            BidenActive = false;
-        }
+        
     }
 
     // Update is called once per frame
@@ -43,4 +17,45 @@ public class Buttons : MonoBehaviour
 
     }
     
+    public void BidenButtonPressed()
+    {
+        if (GameManager.Instance.bossNum == 0)
+        {
+            LoadScene("Victory");
+        }
+        else
+        {
+            LoadScene("Wrong Guess");
+        }
+    }
+
+    public void TrumpButtonPressed()
+    {
+        if (GameManager.Instance.bossNum == 1)
+        {
+            LoadScene("Victory");
+        }
+        else
+        {
+            LoadScene("Wrong Guess");
+        }
+    }
+
+    public void ObamaButtonPressed()
+    {
+        if (GameManager.Instance.bossNum == 2)
+        {
+            LoadScene("Victory");
+        }
+        else
+        {
+            LoadScene("Wrong Guess");
+        }
+    }
+
+    public void LoadScene(string sceneName)
+    {
+        SceneManager.LoadScene(sceneName);
+    }
 }
+

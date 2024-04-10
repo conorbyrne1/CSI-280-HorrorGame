@@ -5,10 +5,33 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
+    public static GameManager Instance;
+    private void Awake()
+    {
+        if(Instance == null)
+        {
+            Instance = this;
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+            
+    }
+
+    private void OnDisable()
+    {
+        if (Instance == this)
+        {
+            Instance = null;
+        }
+    }
+
     public GameObject[] bossPrefabs;
     public GameObject collectibleSpawnerBiden;
     public GameObject collectibleSpawnerTrump;
     public GameObject collectibleSpawnerObama;
+    public int bossNum;
 
     void Start()
     {
@@ -30,6 +53,7 @@ public class GameManager : MonoBehaviour
         if (boss.name == "Biden(Clone)" || boss.name == "Biden")
         {
             Debug.Log("Biden");
+            bossNum = 0;
             // Enable collectible spawner for boss 1
             collectibleSpawnerBiden.SetActive(true);
 
@@ -42,6 +66,7 @@ public class GameManager : MonoBehaviour
         else if (boss.name == "Trump(Clone)" || boss.name == "Trump")
         {
             Debug.Log("trump");
+            bossNum = 1;
             // Enable collectible spawner for boss 2
             collectibleSpawnerTrump.SetActive(true);
 
@@ -56,6 +81,7 @@ public class GameManager : MonoBehaviour
         else if (boss.name == "Obama(Clone)" || boss.name == "Obama")
         {
             Debug.Log("obama");
+            bossNum = 2;
             // Enable collectible spawner for boss 3
             collectibleSpawnerObama.SetActive(true);
 
@@ -65,7 +91,6 @@ public class GameManager : MonoBehaviour
             // Disable collectible spawner for boss 1
             collectibleSpawnerBiden.SetActive(false);
 
-            
         }
     }
 
@@ -78,4 +103,5 @@ public class GameManager : MonoBehaviour
         Debug.Log("turns 'off' both");
 
     }
+
 }
