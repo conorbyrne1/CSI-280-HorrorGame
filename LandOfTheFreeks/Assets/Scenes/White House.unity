@@ -10699,9 +10699,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collectiblePrefabs:
-  - {fileID: 166336, guid: e884025de6cbe234a8dd0efcbf584596, type: 3}
-  - {fileID: 8731207516844881368, guid: 57b784ec03319f547a34842e2a4a9702, type: 3}
-  - {fileID: 7744552841482706956, guid: 7869f5399ee260446a282e0459eb0841, type: 3}
+  - {fileID: 1182486981031919140, guid: 657c3f7030db52f45b9954d2c9ca2582, type: 3}
+  - {fileID: 7928334444103593709, guid: d31708a6877ed9b489262089bf657f12, type: 3}
+  - {fileID: 3237247311083616311, guid: b855b6edfc21d954496638081a851219, type: 3}
   spawnPoints:
   - {fileID: 633636272}
   - {fileID: 203734958}
@@ -11057,7 +11057,7 @@ GameObject:
   - component: {fileID: 1054356656}
   - component: {fileID: 1054356655}
   m_Layer: 5
-  m_Name: Button
+  m_Name: BidenButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11900,6 +11900,84 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1768150135}
   m_LocalEulerAnglesHint: {x: 0, y: 68, z: 0}
+--- !u!1 &1165160542
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1165160544}
+  - component: {fileID: 1165160543}
+  m_Layer: 0
+  m_Name: Obama Collectable Spawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &1165160543
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1165160542}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ca4b40d569b0a0419832f94721d8257, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  collectiblePrefabs:
+  - {fileID: 6269718017476385109, guid: e302aba1e036b1843a349d777e9b53c7, type: 3}
+  - {fileID: 6388661465331088224, guid: e6d6cf86a263468438d331fbd652cddd, type: 3}
+  - {fileID: 4149768727021587095, guid: d7bdf7feb7918e94e8ad6c2621abbff9, type: 3}
+  spawnPoints:
+  - {fileID: 633636272}
+  - {fileID: 203734958}
+  - {fileID: 1977050100}
+  - {fileID: 1953320174}
+  - {fileID: 1532904165}
+  - {fileID: 13576365}
+  - {fileID: 1537950234}
+  - {fileID: 898843132}
+  - {fileID: 848111858}
+  - {fileID: 105623199}
+  - {fileID: 470698756}
+  - {fileID: 1206394414}
+  - {fileID: 332719315}
+  - {fileID: 947681332}
+  - {fileID: 900475014}
+  - {fileID: 845541331}
+  - {fileID: 845541331}
+  - {fileID: 1248829184}
+  - {fileID: 117529497}
+  - {fileID: 372387733}
+  - {fileID: 1923177067}
+  - {fileID: 1246817890}
+  - {fileID: 1360444455}
+  - {fileID: 604415135}
+  - {fileID: 1579994278}
+  - {fileID: 189578890}
+  - {fileID: 94244734}
+  - {fileID: 600153625}
+  numberOfItemsToSpawn: 3
+--- !u!4 &1165160544
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1165160542}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 283.83353, y: -24.142784, z: -119.0961}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1167431327
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15065,8 +15143,10 @@ MonoBehaviour:
   bossPrefabs:
   - {fileID: 4397384895913349859, guid: b41afb1f434f4f840bf3987a43bad6dc, type: 3}
   - {fileID: 4397384895913349859, guid: 1f5d702b8f0035a438d652d26b4d784e, type: 3}
-  collectibleSpawnerLincoln: {fileID: 995143646}
+  - {fileID: 4397384895913349859, guid: d778a4cc6ae23984b838856ea20ecaea, type: 3}
+  collectibleSpawnerBiden: {fileID: 995143646}
   collectibleSpawnerTrump: {fileID: 1198863372}
+  collectibleSpawnerObama: {fileID: 1165160542}
 --- !u!4 &1433899742
 Transform:
   m_ObjectHideFlags: 0
@@ -22533,6 +22613,7 @@ SceneRoots:
   - {fileID: 1756531527}
   - {fileID: 995143648}
   - {fileID: 1198863374}
+  - {fileID: 1165160544}
   - {fileID: 2042346611}
   - {fileID: 995487627}
   - {fileID: 1216403443}
