@@ -360,6 +360,7 @@
 "Assets/Scripts/BunkerScript.cs"
 "Assets/Scripts/BunkerSpawn.cs"
 "Assets/Scripts/BunkerUI.cs"
+"Assets/Scripts/Buttons.cs"
 "Assets/Scripts/checkallcollectables.cs"
 "Assets/Scripts/Collectable.cs"
 "Assets/Scripts/CollectableCount.cs"
