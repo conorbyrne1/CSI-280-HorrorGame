@@ -4761,6 +4761,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 447695943}
   m_Enabled: 1
   m_EditorHideFlags: 0
+<<<<<<< Updated upstream
   m_Script: {fileID: 11500000, guid: e621edc775762c344bac604fb3640daa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -4792,6 +4793,12 @@ Rigidbody:
   m_Constraints: 0
   m_CollisionDetection: 0
 --- !u!136 &447695949
+=======
+  m_Script: {fileID: 11500000, guid: 1d55880cfb5eda84ea43870ee0aedb2b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!136 &447695948
+>>>>>>> Stashed changes
 CapsuleCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4814,6 +4821,36 @@ CapsuleCollider:
   m_Height: 1
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
+<<<<<<< Updated upstream
+=======
+--- !u!54 &447695949
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 447695943}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
+>>>>>>> Stashed changes
 --- !u!1001 &455662155
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7095,9 +7132,15 @@ GameObject:
   - component: {fileID: 674560386}
   - component: {fileID: 674560385}
   - component: {fileID: 674560384}
+<<<<<<< Updated upstream
   - component: {fileID: 674560391}
   - component: {fileID: 674560393}
   - component: {fileID: 674560392}
+=======
+  - component: {fileID: 674560390}
+  - component: {fileID: 674560392}
+  - component: {fileID: 674560391}
+>>>>>>> Stashed changes
   m_Layer: 0
   m_Name: Monster
   m_TagString: Enemy
@@ -7251,14 +7294,23 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
+<<<<<<< Updated upstream
   m_PlayOnAwake: 0
   m_Volume: 1
+=======
+  m_PlayOnAwake: 1
+  m_Volume: 0.835
+>>>>>>> Stashed changes
   m_Pitch: 1
   Loop: 0
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
+<<<<<<< Updated upstream
   Priority: 124
+=======
+  Priority: 38
+>>>>>>> Stashed changes
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500
@@ -7296,7 +7348,11 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
+<<<<<<< Updated upstream
       value: 1
+=======
+      value: 0.513
+>>>>>>> Stashed changes
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -7336,7 +7392,11 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+<<<<<<< Updated upstream
 --- !u!114 &674560393
+=======
+--- !u!114 &674560391
+>>>>>>> Stashed changes
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -7345,6 +7405,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 674560382}
   m_Enabled: 1
   m_EditorHideFlags: 0
+<<<<<<< Updated upstream
   m_Script: {fileID: 11500000, guid: f8272607b9d420e478e2f9f94d0a581d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -7356,6 +7417,54 @@ MonoBehaviour:
   - {fileID: 8300000, guid: d823391772a964e43b14de2eaab6bf63, type: 3}
   - {fileID: 8300000, guid: 89326b5a390de0e4f908c41cbde402ec, type: 3}
   - {fileID: 8300000, guid: 843ac8232eaa4b34a9621fa2a95576cc, type: 3}
+=======
+  m_Script: {fileID: 11500000, guid: 773f83bf8a1a4c844aba6cada7725ef0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  source: {fileID: 674560390}
+  tClips:
+  - {fileID: 8300000, guid: b4a8eb69a25a0c349a6e7992d5ddf2bc, type: 3}
+  - {fileID: 8300000, guid: 1ebd83c7ba042ed4782384c455c6fe29, type: 3}
+  - {fileID: 8300000, guid: 5dbedfd742bde6140a5de01dcac27adf, type: 3}
+  - {fileID: 8300000, guid: b7c4c41793417db4a818c5cd3c472a3c, type: 3}
+  - {fileID: 8300000, guid: bfcb32941b4b2844e84968fbb5e33421, type: 3}
+  bClips:
+  - {fileID: 8300000, guid: a7d59127d63c87b4ca158500547a07c6, type: 3}
+  - {fileID: 8300000, guid: b3178a07f096a3e47bd0ab24ddf67e87, type: 3}
+  - {fileID: 8300000, guid: c89c20521ed33e6439703335ef5456cb, type: 3}
+  - {fileID: 8300000, guid: f5feb4fc818d81b4788ae48ecbb813fd, type: 3}
+  - {fileID: 8300000, guid: 47e99b33da865a64fb45da8b80d0cf7c, type: 3}
+  oClips:
+  - {fileID: 8300000, guid: f58f5cd844529a1468f85a8ad43e1ce5, type: 3}
+  - {fileID: 8300000, guid: 252db62f8d154bd439b6ae847a8f5035, type: 3}
+  - {fileID: 8300000, guid: 54bf876a2b236204a8f187b8a18cbfd0, type: 3}
+  - {fileID: 8300000, guid: eddf8fda8a90cd6499998c2ffae2025b, type: 3}
+  - {fileID: 8300000, guid: 7976c9474163a494b9a5f8c7a0c387d4, type: 3}
+  gm: {fileID: 1433899743}
+--- !u!136 &674560392
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 674560382}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.49999997
+  m_Height: 1.9999999
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
+>>>>>>> Stashed changes
 --- !u!1 &676297476
 GameObject:
   m_ObjectHideFlags: 0
@@ -15382,7 +15491,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1433899742}
-  - component: {fileID: 1433899741}
+  - component: {fileID: 1433899743}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -15390,26 +15499,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1433899741
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1433899740}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 205df8d7bda540841b91f694b586bcd0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  bossPrefabs:
-  - {fileID: 4397384895913349859, guid: b41afb1f434f4f840bf3987a43bad6dc, type: 3}
-  - {fileID: 4397384895913349859, guid: 1f5d702b8f0035a438d652d26b4d784e, type: 3}
-  - {fileID: 4397384895913349859, guid: d778a4cc6ae23984b838856ea20ecaea, type: 3}
-  collectibleSpawnerBiden: {fileID: 995143646}
-  collectibleSpawnerTrump: {fileID: 1198863372}
-  collectibleSpawnerObama: {fileID: 1165160542}
-  bossNum: 0
 --- !u!4 &1433899742
 Transform:
   m_ObjectHideFlags: 0
@@ -15425,6 +15514,26 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1433899743
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1433899740}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a566a777fc2b714fac6fd6e12da84f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bossPrefabs:
+  - {fileID: 4397384895913349859, guid: b41afb1f434f4f840bf3987a43bad6dc, type: 3}
+  - {fileID: 4397384895913349859, guid: 1f5d702b8f0035a438d652d26b4d784e, type: 3}
+  - {fileID: 4397384895913349859, guid: d778a4cc6ae23984b838856ea20ecaea, type: 3}
+  collectibleSpawnerBiden: {fileID: 995143646}
+  collectibleSpawnerTrump: {fileID: 1198863372}
+  collectibleSpawnerObama: {fileID: 1165160542}
+  bossNum: 0
 --- !u!1 &1453120719
 GameObject:
   m_ObjectHideFlags: 0
