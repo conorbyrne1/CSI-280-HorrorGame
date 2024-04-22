@@ -44,7 +44,7 @@ public class GameManager : MonoBehaviour
         AdjustCollectibles(chosenBoss);
     }
 
-    void AdjustCollectibles(GameObject boss)
+    public int AdjustCollectibles(GameObject boss)
     {
         // Disable both spawners at first
        // DeactivateAllSpawners();
@@ -92,6 +92,7 @@ public class GameManager : MonoBehaviour
             collectibleSpawnerBiden.SetActive(false);
 
         }
+        return bossNum;
     }
 
     // You may call this method from somewhere in your code to deactivate all collectible spawners
@@ -104,4 +105,8 @@ public class GameManager : MonoBehaviour
 
     }
 
+    public int getBoss()
+    {
+        return bossNum;
+    }
 }
