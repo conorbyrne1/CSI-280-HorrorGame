@@ -1,23 +1,23 @@
 Using pre-set license
 Built from '2022.3/release' branch; Version is '2022.3.18f1 (d29bea25151d) revision 13802474'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'en' Physical Memory: 65459 MB
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 32634 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2022.3.18f1\Editor\Unity.exe
+D:\2022.3.18f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/Conor/Desktop/CSI-280-LandOfTheFreeks/LandOfTheFreeks
+C:/Users/conno/OneDrive/Documents/CSI-280-LandOfTheFreeks/LandOfTheFreeks
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-60579
-Successfully changed project path to: C:/Users/Conor/Desktop/CSI-280-LandOfTheFreeks/LandOfTheFreeks
-C:/Users/Conor/Desktop/CSI-280-LandOfTheFreeks/LandOfTheFreeks
+38828
+Successfully changed project path to: C:/Users/conno/OneDrive/Documents/CSI-280-LandOfTheFreeks/LandOfTheFreeks
+C:/Users/conno/OneDrive/Documents/CSI-280-LandOfTheFreeks/LandOfTheFreeks
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,65 +49,65 @@ C:/Users/Conor/Desktop/CSI-280-LandOfTheFreeks/LandOfTheFreeks
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [22372] Host "[IP] 184.171.153.67 [Port] 0 [Flags] 2 [Guid] 4221692031 [EditorId] 4221692031 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-QSUODMI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [5900] Host "[IP] 184.171.154.2 [Port] 0 [Flags] 2 [Guid] 1827294201 [EditorId] 1827294201 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-S3S5N7J) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [22372] Host "[IP] 184.171.153.67 [Port] 0 [Flags] 2 [Guid] 4221692031 [EditorId] 4221692031 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-QSUODMI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [5900] Host "[IP] 184.171.154.2 [Port] 0 [Flags] 2 [Guid] 1827294201 [EditorId] 1827294201 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-S3S5N7J) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-[Physics::Module] Initialized MultithreadedJobDispatcher with 31 workers.
-Refreshing native plugins compatible for Editor in 9.24 ms, found 3 plugins.
+[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
+Refreshing native plugins compatible for Editor in 630.95 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.18f1 (d29bea25151d)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.18f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/Conor/Desktop/CSI-280-LandOfTheFreeks/LandOfTheFreeks/Assets
+[Subsystems] Discovering subsystems at path D:/2022.3.18f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/conno/OneDrive/Documents/CSI-280-LandOfTheFreeks/LandOfTheFreeks/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: AMD Radeon RX 6650 XT (ID=0x73ef)
-    Vendor:   ATI
-    VRAM:     8147 MB
-    Driver:   31.0.24027.1012
+    Renderer: NVIDIA GeForce GTX 1660 SUPER (ID=0x21c4)
+    Vendor:   NVIDIA
+    VRAM:     5966 MB
+    Driver:   31.0.15.5134
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.18f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.18f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56752
+Mono path[0] = 'D:/2022.3.18f1/Editor/Data/Managed'
+Mono path[1] = 'D:/2022.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/2022.3.18f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56576
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.007881 seconds.
-- Loaded All Assemblies, in  0.305 seconds
+Register platform support module: D:/2022.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.027740 seconds.
+- Loaded All Assemblies, in  1.059 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.225 seconds
-Domain Reload Profiling: 528ms
-	BeginReloadAssembly (89ms)
+- Finished resetting the current domain, in  0.362 seconds
+Domain Reload Profiling: 1421ms
+	BeginReloadAssembly (679ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (29ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (53ms)
-	LoadAllAssembliesAndSetupDomain (122ms)
-		LoadAssemblies (87ms)
+	RebuildCommonClasses (52ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (92ms)
+	LoadAllAssembliesAndSetupDomain (216ms)
+		LoadAssemblies (679ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (120ms)
-			TypeCache.Refresh (119ms)
-				TypeCache.ScanAssembly (108ms)
+		AnalyzeDomain (214ms)
+			TypeCache.Refresh (212ms)
+				TypeCache.ScanAssembly (194ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (225ms)
+	FinalizeReload (362ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (178ms)
+		SetupLoadedEditorAssemblies (294ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (8ms)
-			SetLoadedEditorAssemblies (6ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (10ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (122ms)
-			ProcessInitializeOnLoadMethodAttributes (39ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (204ms)
+			ProcessInitializeOnLoadMethodAttributes (67ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -115,58 +115,59 @@ Domain Reload Profiling: 528ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.517 seconds
-Refreshing native plugins compatible for Editor in 3.43 ms, found 3 plugins.
+- Loaded All Assemblies, in  5.024 seconds
+Refreshing native plugins compatible for Editor in 4.79 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.488 seconds
-Domain Reload Profiling: 1002ms
-	BeginReloadAssembly (127ms)
+- Finished resetting the current domain, in  0.875 seconds
+Domain Reload Profiling: 5893ms
+	BeginReloadAssembly (228ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
+		DisableScriptedObjects (9ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (22ms)
-	RebuildCommonClasses (27ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (35ms)
-	LoadAllAssembliesAndSetupDomain (316ms)
-		LoadAssemblies (239ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (61ms)
+	LoadAllAssembliesAndSetupDomain (4664ms)
+		LoadAssemblies (4580ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (148ms)
-			TypeCache.Refresh (129ms)
-				TypeCache.ScanAssembly (116ms)
-			ScanForSourceGeneratedMonoScriptInfo (14ms)
-			ResolveRequiredComponents (3ms)
-	FinalizeReload (488ms)
+		AnalyzeDomain (242ms)
+			TypeCache.Refresh (210ms)
+				TypeCache.ScanAssembly (192ms)
+			ScanForSourceGeneratedMonoScriptInfo (24ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (875ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (362ms)
+		SetupLoadedEditorAssemblies (671ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (5ms)
-			SetLoadedEditorAssemblies (4ms)
+			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (58ms)
-			ProcessInitializeOnLoadAttributes (268ms)
-			ProcessInitializeOnLoadMethodAttributes (18ms)
-			AfterProcessingInitializeOnLoad (8ms)
+			BeforeProcessingInitializeOnLoad (74ms)
+			ProcessInitializeOnLoadAttributes (560ms)
+			ProcessInitializeOnLoadMethodAttributes (25ms)
+			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 3.74 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (13ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
+Refreshing native plugins compatible for Editor in 5.73 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3193 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 32 unused Assets / (57.9 KB). Loaded Objects now: 3663.
-Memory consumption went from 131.9 MB to 131.8 MB.
-Total: 3.009900 ms (FindLiveObjects: 0.234900 ms CreateObjectMapping: 0.087200 ms MarkObjects: 2.582400 ms  DeleteObjects: 0.103900 ms)
+Unloading 32 unused Assets / (57.3 KB). Loaded Objects now: 3663.
+Memory consumption went from 130.9 MB to 130.9 MB.
+Total: 3.280300 ms (FindLiveObjects: 0.253200 ms CreateObjectMapping: 0.238400 ms MarkObjects: 2.691100 ms  DeleteObjects: 0.096600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
@@ -180,73 +181,609 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 377091.826693 seconds.
-  path: Assets/MonsterPlayerInteracts
-  artifactKey: Guid(a3f4bcee5936ced4cb5f5c3a6c79038f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MonsterPlayerInteracts using Guid(a3f4bcee5936ced4cb5f5c3a6c79038f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3397557161dacdbe04badc43c17a01c4') in 0.002309 seconds
+  Time since last request: 22091.534687 seconds.
+  path: Assets/Images/concrtet.jpg
+  artifactKey: Guid(6a9cfa00b3ef7ef4aaeefa0fba7e7e32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/concrtet.jpg using Guid(6a9cfa00b3ef7ef4aaeefa0fba7e7e32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b349d97484b82697faed9c85e98a83a1') in 0.071103 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 22.735823 seconds.
-  path: Assets/MonsterPlayerInteracts/new files
-  artifactKey: Guid(c696c9d1b81b19645825886070c7a9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MonsterPlayerInteracts/new files using Guid(c696c9d1b81b19645825886070c7a9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a8e904cac52c1618032b044d3c4b218') in 0.000468 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 27.648858 seconds.
-  path: Assets/MonsterPlayerInteracts/new files/Damage.cs
-  artifactKey: Guid(8b0132a5f98db1d4f82290148ba765fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MonsterPlayerInteracts/new files/Damage.cs using Guid(8b0132a5f98db1d4f82290148ba765fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e44994b3fe3ae4acc687ca21d2c3d0f4') in 0.000584 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 6.059775 seconds.
-  path: Assets/MonsterPlayerInteracts/Trump
-  artifactKey: Guid(efef8c5bff317fa4b9ec6b17aadf4c12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MonsterPlayerInteracts/Trump using Guid(efef8c5bff317fa4b9ec6b17aadf4c12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6a1e80b9ce4aa8ecef607f821e37eec') in 0.000446 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.057234 seconds.
-  path: Assets/MonsterPlayerInteracts/Trump/bye-bye-trump-made-with-Voicemod.mp3
-  artifactKey: Guid(553e74dc46d8a7642b1b87c43be12bb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MonsterPlayerInteracts/Trump/bye-bye-trump-made-with-Voicemod.mp3 using Guid(553e74dc46d8a7642b1b87c43be12bb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '218613c89dbd4436100d8da9ee4c3c0a') in 0.074896 seconds
+  Time since last request: 0.000025 seconds.
+  path: Assets/Images/fabric_0012_2k_2fPc8F/fabric_0012_color_2k.jpg
+  artifactKey: Guid(d370dab7be2c88e42abb9be531dfbf49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/fabric_0012_2k_2fPc8F/fabric_0012_color_2k.jpg using Guid(d370dab7be2c88e42abb9be531dfbf49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88053dd156c39d370f881717b044bed5') in 0.021890 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
   Time since last request: 0.000016 seconds.
-  path: Assets/MonsterPlayerInteracts/Trump/trump-cant-breathe-made-with-Voicemod.mp3
-  artifactKey: Guid(289aaa3caf9cdfb41b354f1a3051862f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MonsterPlayerInteracts/Trump/trump-cant-breathe-made-with-Voicemod.mp3 using Guid(289aaa3caf9cdfb41b354f1a3051862f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '306cf7f0c3e2eadab2147fd4318c3433') in 0.010318 seconds
+  path: Assets/Images/door.png
+  artifactKey: Guid(6fb2ad9826064f84da5e27bfa81df40b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/door.png using Guid(6fb2ad9826064f84da5e27bfa81df40b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cb65eb2f9a55b5f075c538db12fd61a') in 0.016926 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/MonsterPlayerInteracts/Trump/this-is-a-bot-lobby-no-cap-made-with-Voicemod.mp3
-  artifactKey: Guid(689571a42001f8c46b287b9717da1cad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MonsterPlayerInteracts/Trump/this-is-a-bot-lobby-no-cap-made-with-Voicemod.mp3 using Guid(689571a42001f8c46b287b9717da1cad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd09116c68dd816e28b5075a82df40ab8') in 0.009978 seconds
+  Time since last request: 0.000023 seconds.
+  path: Assets/Images/fabric_0012_2k_2fPc8F/fabric_0012_normal_opengl_2k.png
+  artifactKey: Guid(fced810f0eeb5444aa267b50ede49442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/fabric_0012_2k_2fPc8F/fabric_0012_normal_opengl_2k.png using Guid(fced810f0eeb5444aa267b50ede49442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9257ded104fc1b68839f8b6f69a63cf') in 0.016571 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Images/victory.png
+  artifactKey: Guid(9368ac88e0e659242bbb266cc740ffbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/victory.png using Guid(9368ac88e0e659242bbb266cc740ffbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96e11cdab6b867f93bfde6c2a53acfd1') in 0.014991 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Images/fabric_0012_2k_2fPc8F/fabric_0012_roughness_2k.jpg
+  artifactKey: Guid(5304fa92a8b6ac445b1a904dee9f0ab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/fabric_0012_2k_2fPc8F/fabric_0012_roughness_2k.jpg using Guid(5304fa92a8b6ac445b1a904dee9f0ab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c5181d0bf9244fd0f3606f422b84016') in 0.017834 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Images/fabric_0012_2k_2fPc8F/fabric_0012_scattering_2k.jpg
+  artifactKey: Guid(236718c97a6531d4eb87479bcb7af0ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/fabric_0012_2k_2fPc8F/fabric_0012_scattering_2k.jpg using Guid(236718c97a6531d4eb87479bcb7af0ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1b231f9db8cec4b7734dd9d8b030d5a') in 0.021073 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Images/fabric_0012_2k_2fPc8F/fabric_0012_ao_2k.jpg
+  artifactKey: Guid(14b48c2d704dcaa448c96d10edc0f1c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/fabric_0012_2k_2fPc8F/fabric_0012_ao_2k.jpg using Guid(14b48c2d704dcaa448c96d10edc0f1c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '453b8ce667cb81e4989aaba8e502540b') in 0.017293 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Images/gameiover.png
+  artifactKey: Guid(13b73a81376f948449c8504df8785f59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/gameiover.png using Guid(13b73a81376f948449c8504df8785f59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e998fd972c3ff306e0b98ef218232758') in 0.014255 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Images/fabric_0012_2k_2fPc8F/fabric_0012_height_2k.png
+  artifactKey: Guid(0f69374019a826b4baddadc5f71fb21c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/fabric_0012_2k_2fPc8F/fabric_0012_height_2k.png using Guid(0f69374019a826b4baddadc5f71fb21c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a7c3d92fc663de1edb53fa89fb45ead') in 0.021321 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
   Time since last request: 0.000017 seconds.
-  path: Assets/MonsterPlayerInteracts/Trump/trump-china-made-with-Voicemod.mp3
-  artifactKey: Guid(67061c1fb1e385847b5382cfd77b9ee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MonsterPlayerInteracts/Trump/trump-china-made-with-Voicemod.mp3 using Guid(67061c1fb1e385847b5382cfd77b9ee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '575d28c32ab03d168095315f02b0dd65') in 0.010171 seconds
+  path: Assets/Images/iphone.jpeg
+  artifactKey: Guid(5a48d568b650f4b48917f9e9f688c82c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/iphone.jpeg using Guid(5a48d568b650f4b48917f9e9f688c82c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a9e372ec00baebf5c7cd558c0d1e33f') in 0.019351 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/MonsterPlayerInteracts/Trump/trump-nuclear-horror-made-with-Voicemod.mp3
-  artifactKey: Guid(075dbcd49a3a407489e7971e3991e20a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MonsterPlayerInteracts/Trump/trump-nuclear-horror-made-with-Voicemod.mp3 using Guid(075dbcd49a3a407489e7971e3991e20a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f9f289884b0ef559169d7b0a5cbdda2') in 0.008970 seconds
+  Time since last request: 0.000024 seconds.
+  path: Assets/Images/fabric_0012_2k_2fPc8F/fabric_0012_normal_directx_2k.png
+  artifactKey: Guid(aaaeb3397b517674e8615eb290efab37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/fabric_0012_2k_2fPc8F/fabric_0012_normal_directx_2k.png using Guid(aaaeb3397b517674e8615eb290efab37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0809f4bd9061fc8a94ba48d1c42331d') in 0.018675 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 34.309827 seconds.
+  path: Assets/Images/Materials/concrtet.mat
+  artifactKey: Guid(82adcc1e5f7989745ab558186b698fb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Materials/concrtet.mat using Guid(82adcc1e5f7989745ab558186b698fb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '917545aad1bd55d8b2ad35b0d9c0107e') in 0.622199 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Images/Materials/iphone.mat
+  artifactKey: Guid(e26270ff4cd17b8458102bdc02ba2fd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Materials/iphone.mat using Guid(e26270ff4cd17b8458102bdc02ba2fd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da2d78eb805248d72e52c036fe907707') in 0.014593 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Images/Materials/door.mat
+  artifactKey: Guid(619c25b456cbd394abf35cb9af174dc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Materials/door.mat using Guid(619c25b456cbd394abf35cb9af174dc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1879165459af9d0c90944ea09311266a') in 0.012334 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 6.788312 seconds.
+  path: Assets/Images/fabric_0012_2k_2fPc8F
+  artifactKey: Guid(d794604d60a11644eb94a7c8e0bb3cf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/fabric_0012_2k_2fPc8F using Guid(d794604d60a11644eb94a7c8e0bb3cf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4c5447323a76fb62d372f398483a5f9') in 0.000523 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 59.388698 seconds.
+  path: Assets/Images/fabric_0012_2k_2fPc8F/red carpet floor.mat
+  artifactKey: Guid(1962fc9402398574f8fda996f90493a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/fabric_0012_2k_2fPc8F/red carpet floor.mat using Guid(1962fc9402398574f8fda996f90493a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '864b62ee898f2a24bcb05484bbb64fd2') in 0.018557 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 41.928874 seconds.
+  path: Assets/Images/fabric_0012_2k_2fPc8F/New Material.mat
+  artifactKey: Guid(608c7caf1dbab0e4abe0ef41f9088951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/fabric_0012_2k_2fPc8F/New Material.mat using Guid(608c7caf1dbab0e4abe0ef41f9088951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e30cd57a046a01fda2f258e72239e5b3') in 0.015512 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 139.442980 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Vertical (Color).jpg
+  artifactKey: Guid(03d0538de6e24c0f819bfc9ce084dfa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Vertical (Color).jpg using Guid(03d0538de6e24c0f819bfc9ce084dfa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58d209abf6f563eb6fb0eb847663849a') in 0.016838 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/President Items/Joe Biden/laptops/renders/grid_back.png
+  artifactKey: Guid(b403c0df406822c4594efc357904a564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/President Items/Joe Biden/laptops/renders/grid_back.png using Guid(b403c0df406822c4594efc357904a564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d86ccc7d0b5c5077515fd868beb04c7') in 0.017655 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Little_GhostLP(FREE)/Texture/Ghost Kid/New Skins/S3/Kid Ghost_blinn1_BaseColor.png
+  artifactKey: Guid(90aceb81fc167d1479cab8dbc15fae44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Little_GhostLP(FREE)/Texture/Ghost Kid/New Skins/S3/Kid Ghost_blinn1_BaseColor.png using Guid(90aceb81fc167d1479cab8dbc15fae44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cddc49fcccc86c194208ff305b8d2fa4') in 0.017237 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/President Items/Joe Biden/laptops/silver_texture/laptop_silver_Normal.png
+  artifactKey: Guid(f76e218a429d17f4d9155c25cdc763f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/President Items/Joe Biden/laptops/silver_texture/laptop_silver_Normal.png using Guid(f76e218a429d17f4d9155c25cdc763f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f5d0f6bb1c91a7d4f4441d08cffb233') in 0.063411 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/President Items/Joe Biden/laptops/renders/grid.png
+  artifactKey: Guid(9e66d69ebe7b0f644920f6b7a3ed9c38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/President Items/Joe Biden/laptops/renders/grid.png using Guid(9e66d69ebe7b0f644920f6b7a3ed9c38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd54fdd6cbb6a2980c87da5391ee137a0') in 0.014408 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Little_GhostLP(FREE)/Texture/Ghost Kid/New Skins/S1/Kid Ghost_blinn1_BaseColor.png
+  artifactKey: Guid(1461a2e18f7bfc647a474a0524a83180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Little_GhostLP(FREE)/Texture/Ghost Kid/New Skins/S1/Kid Ghost_blinn1_BaseColor.png using Guid(1461a2e18f7bfc647a474a0524a83180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8ed002ed039de3905f7b16df593efdc') in 0.023700 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Little_GhostLP(FREE)/Texture/Ghost Kid/New Skins/S2/Kid Ghost_blinn1_BaseColor.png
+  artifactKey: Guid(d25a405999b72df47a9d5530491985c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Little_GhostLP(FREE)/Texture/Ghost Kid/New Skins/S2/Kid Ghost_blinn1_BaseColor.png using Guid(d25a405999b72df47a9d5530491985c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a75c900e877559669b2d52bac5554f59') in 0.020333 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.167235 seconds.
+  path: Assets/President Items/Joe Biden/laptops/renders/laptops_all_in_Unity.png
+  artifactKey: Guid(6521bc91c74eaed4a986c5f12a47e2e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/President Items/Joe Biden/laptops/renders/laptops_all_in_Unity.png using Guid(6521bc91c74eaed4a986c5f12a47e2e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '795ca20718677fcacd9a89a0384b4c08') in 0.020243 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd27ee67b8ce83e49a12d6a739ae5a580') in 0.088270 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.712105 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Mask Zig-n-Zag.psd
+  artifactKey: Guid(bb8dfcd263ad4eb383a33d74a720be6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Mask Zig-n-Zag.psd using Guid(bb8dfcd263ad4eb383a33d74a720be6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dca02ddbf645195ef99f43f87359c0d7') in 0.015052 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/President Items/Joe Biden/laptops/silver_texture/metallic_silver.png
+  artifactKey: Guid(1bc1d09d2aa279643b54ca4ff8051f75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/President Items/Joe Biden/laptops/silver_texture/metallic_silver.png using Guid(1bc1d09d2aa279643b54ca4ff8051f75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9764668c414272f153400f565e190565') in 0.016629 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.021586 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Oswald Bold SDF.asset
+  artifactKey: Guid(0161d805a3764c089bef00bfe00793f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Oswald Bold SDF.asset using Guid(0161d805a3764c089bef00bfe00793f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9b81afd623baf78fc4839dcde8b67da') in 0.032999 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/President Items/Obama/Coconut Palm Tree Pack/Textures/Parts/Palm_Brush_diffuse.psd
+  artifactKey: Guid(9cd8cff609aaf234f946e620c14ffb05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/President Items/Obama/Coconut Palm Tree Pack/Textures/Parts/Palm_Brush_diffuse.psd using Guid(9cd8cff609aaf234f946e620c14ffb05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cff7569a483e3710daa123002b0f3551') in 0.015304 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.482965 seconds.
+  path: Assets/President Items/Obama/Coconut Palm Tree Pack/Textures/Parts/Palm_Brush_gloss.png
+  artifactKey: Guid(7d86926c175021744956548284febc35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/President Items/Obama/Coconut Palm Tree Pack/Textures/Parts/Palm_Brush_gloss.png using Guid(7d86926c175021744956548284febc35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '996c3bca3c333741d7dfe6518e0000e4') in 0.014551 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/President Items/Obama/Coconut Palm Tree Pack/Textures/Parts/Palm_Brush_normal.tif
+  artifactKey: Guid(00d939a5e964c1e468fb0ba0f978bba9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/President Items/Obama/Coconut Palm Tree Pack/Textures/Parts/Palm_Brush_normal.tif using Guid(00d939a5e964c1e468fb0ba0f978bba9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd2855926778a7ea71f695016447198a') in 0.020194 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/President Items/Obama/Coconut Palm Tree Pack/Textures/Parts/Palm_Brush_trans.psd
+  artifactKey: Guid(c3f6d5d12f1c76a44864bd390dea6414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/President Items/Obama/Coconut Palm Tree Pack/Textures/Parts/Palm_Brush_trans.psd using Guid(c3f6d5d12f1c76a44864bd390dea6414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a5f9bde93f95d3f4c2d83d32f8595c0') in 0.018061 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/President Items/Joe Biden/Carton of Milk 4K PBR/Scenes/SampleScene/ReflectionProbe-0.exr
+  artifactKey: Guid(a2844aeeb2ddfa04c911f6c21d6ad45d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/President Items/Joe Biden/Carton of Milk 4K PBR/Scenes/SampleScene/ReflectionProbe-0.exr using Guid(a2844aeeb2ddfa04c911f6c21d6ad45d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '079df3274b5f4ece4647a7138a385f8b') in 0.053004 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF.asset
+  artifactKey: Guid(5302535af1044152a457ed104f1f4b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF.asset using Guid(5302535af1044152a457ed104f1f4b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e6c723f04189cbfcb1fcd9bde76bfb6') in 0.037381 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/President Items/Obama/AurynSky/Rockets Missiles and Bombs/Textures/RocketsPalletteBlue.png
+  artifactKey: Guid(cd64a42b5204fbe45b6d9f79f669cfe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/President Items/Obama/AurynSky/Rockets Missiles and Bombs/Textures/RocketsPalletteBlue.png using Guid(cd64a42b5204fbe45b6d9f79f669cfe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'beb8bb47e3feb67280fd50e8314887e1') in 0.013598 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.028733 seconds.
+  path: Assets/President Items/Obama/AurynSky/Rockets Missiles and Bombs/Textures/RocketsPalletteGreen.png
+  artifactKey: Guid(eef049362fc106349a741296bc0c4e4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/President Items/Obama/AurynSky/Rockets Missiles and Bombs/Textures/RocketsPalletteGreen.png using Guid(eef049362fc106349a741296bc0c4e4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4670293e04d60a1e5ab9167973d97d60') in 0.021818 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/President Items/Obama/AurynSky/Rockets Missiles and Bombs/Textures/RocketsPalletteGrey.png
+  artifactKey: Guid(9dacb1981f327434bbbff57b0a025335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/President Items/Obama/AurynSky/Rockets Missiles and Bombs/Textures/RocketsPalletteGrey.png using Guid(9dacb1981f327434bbbff57b0a025335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '543ee4751688fc8a7efee216f18d899a') in 0.019201 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.309226 seconds.
+  path: Assets/President Items/Obama/AurynSky/Rockets Missiles and Bombs/Textures/RocketsPalletteOrange.png
+  artifactKey: Guid(8dcd59f668f07cd4d84c72b5e1e01606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/President Items/Obama/AurynSky/Rockets Missiles and Bombs/Textures/RocketsPalletteOrange.png using Guid(8dcd59f668f07cd4d84c72b5e1e01606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73b10150258a4323f03e35cf57a3b72a') in 0.014045 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/President Items/Obama/AurynSky/Rockets Missiles and Bombs/Textures/RocketsPallettePink.png
+  artifactKey: Guid(da92151212311ef43b05edc7d7fac370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/President Items/Obama/AurynSky/Rockets Missiles and Bombs/Textures/RocketsPallettePink.png using Guid(da92151212311ef43b05edc7d7fac370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '761964f2dbf7b9d5c5fe680e116b75d5') in 0.014977 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.366804 seconds.
+  path: Assets/President Items/Obama/AurynSky/Rockets Missiles and Bombs/Textures/RocketsPalletteRed.png
+  artifactKey: Guid(87b14570171a8be458a29df2cd70f078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/President Items/Obama/AurynSky/Rockets Missiles and Bombs/Textures/RocketsPalletteRed.png using Guid(87b14570171a8be458a29df2cd70f078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '600bbb66267b70c030741243118b6176') in 0.014566 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/President Items/Obama/AurynSky/Rockets Missiles and Bombs/Textures/RocketsPalletteYellow.png
+  artifactKey: Guid(806ea9dd9ebcd4a43985ec808fa24d8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/President Items/Obama/AurynSky/Rockets Missiles and Bombs/Textures/RocketsPalletteYellow.png using Guid(806ea9dd9ebcd4a43985ec808fa24d8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64a2c94330516351c1d88c44f7fa262b') in 0.013331 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.072945 seconds.
+  path: Assets/President Items/Joe Biden/laptops/renders/silver_laptop_back.png
+  artifactKey: Guid(0d593e0c5c2019e489e18f22c0926d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/President Items/Joe Biden/laptops/renders/silver_laptop_back.png using Guid(0d593e0c5c2019e489e18f22c0926d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d48424ec00d9adb1e34f18ae0b043db') in 0.017433 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/President Items/Joe Biden/laptops/renders/silver_laptop_on.png
+  artifactKey: Guid(db390fadf56d21742a53019bbe4aa530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/President Items/Joe Biden/laptops/renders/silver_laptop_on.png using Guid(db390fadf56d21742a53019bbe4aa530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0faa60ddcd26fcc3e37b3538e19e4e2') in 0.017795 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.092365 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Small Crate_diffuse.jpg
+  artifactKey: Guid(602cb87b6a29443b8636370ea0751574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Small Crate_diffuse.jpg using Guid(602cb87b6a29443b8636370ea0751574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e90d7112882bc68cf7991171ad01cf83') in 0.019261 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Small Crate_normal.jpg
+  artifactKey: Guid(8878a782f4334ecbbcf683b3ac780966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Small Crate_normal.jpg using Guid(8878a782f4334ecbbcf683b3ac780966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cd9b997c122cc4bf7336b8c64321e5a') in 0.018264 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.076254 seconds.
+  path: Assets/President Items/Obama/Hessburg - Stealth Bomber/Textures/StealthBomber_MainTexture.png
+  artifactKey: Guid(977f2ab48e9d043f6b958562d2e0fb6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/President Items/Obama/Hessburg - Stealth Bomber/Textures/StealthBomber_MainTexture.png using Guid(977f2ab48e9d043f6b958562d2e0fb6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60170aebb2c3a7b3af4802238e58b028') in 0.015738 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/President Items/Obama/Hessburg - Stealth Bomber/Textures/StealthBomber_metallic(r)_smoothness(A).psd
+  artifactKey: Guid(c49a9988b6c214171beb4609989fab0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/President Items/Obama/Hessburg - Stealth Bomber/Textures/StealthBomber_metallic(r)_smoothness(A).psd using Guid(c49a9988b6c214171beb4609989fab0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abfceafa90819dcc448b8fcec1e88aba') in 0.020993 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.025071 seconds.
+  path: Assets/President Items/Obama/Hessburg - Stealth Bomber/Textures/StealthBomber_NormalMap.png
+  artifactKey: Guid(56f9e133fa1af4cd3b2f9b11eb72dfe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/President Items/Obama/Hessburg - Stealth Bomber/Textures/StealthBomber_NormalMap.png using Guid(56f9e133fa1af4cd3b2f9b11eb72dfe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66556e5e7bdcd99cff75ccc7e5a2a551') in 0.016517 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Sunny Days - Seamless.jpg
+  artifactKey: Guid(17c350171f7a3ca479f830547c66d187) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Sunny Days - Seamless.jpg using Guid(17c350171f7a3ca479f830547c66d187) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1545cd1f328f42dd5af7e6d89b7b879f') in 0.013982 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.340518 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Text Overflow - Linked Text Image 1.png
+  artifactKey: Guid(4ccf43d26c4748c792174516f4a8fcef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Text Overflow - Linked Text Image 1.png using Guid(4ccf43d26c4748c792174516f4a8fcef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bf76a2d35e4554868725dda45c6c874') in 0.016014 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Text Overflow - Linked Text UI Screenshot.png
+  artifactKey: Guid(c76d18757a194d618355f05f815cb0a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Text Overflow - Linked Text UI Screenshot.png using Guid(c76d18757a194d618355f05f815cb0a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1964462d16a91c7b3f5a3eb2e13c1abb') in 0.019037 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.022047 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Circle.psd
+  artifactKey: Guid(10c49fcd9c64421db7c0133e61e55f97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Circle.psd using Guid(10c49fcd9c64421db7c0133e61e55f97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b2111415f2c36a023e512c1988d0da6') in 0.016960 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Diagonal.psd
+  artifactKey: Guid(ed5290d8df18488780e2996b9b882f01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Diagonal.psd using Guid(ed5290d8df18488780e2996b9b882f01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e80b8f465877a53e5cf4117de3e21ac4') in 0.014093 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Radial Quad.psd
+  artifactKey: Guid(2b5e9ae96c5644d8bae932f8b4ca68a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Radial Quad.psd using Guid(2b5e9ae96c5644d8bae932f8b4ca68a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5975ded41d23759d5a175dc270a01156') in 0.012905 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Radial Double.psd
+  artifactKey: Guid(7631f4eff8f74ed38eb3eb9db17134e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Radial Double.psd using Guid(7631f4eff8f74ed38eb3eb9db17134e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '075ada1cece19e59e6f876ca99e14e39') in 0.006852 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.012133 seconds.
+  path: Assets/Little_GhostLP(FREE)/Texture/Hat/Witch Hat 1.png
+  artifactKey: Guid(d660644aab4ff2d45a55057a38d9f83a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Little_GhostLP(FREE)/Texture/Hat/Witch Hat 1.png using Guid(d660644aab4ff2d45a55057a38d9f83a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad3db64c4176ea0309605469e89f4d66') in 0.015852 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Little_GhostLP(FREE)/Texture/Hat/Witch Hat 2.png
+  artifactKey: Guid(eece8cabec0afe34b838516567e4d786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Little_GhostLP(FREE)/Texture/Hat/Witch Hat 2.png using Guid(eece8cabec0afe34b838516567e4d786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9071789f05bd65d84f93179250b19ac4') in 0.018629 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Little_GhostLP(FREE)/Texture/Hat/Witch Hat 3.png
+  artifactKey: Guid(fc5da31fdde959845a74203a4cea9e1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Little_GhostLP(FREE)/Texture/Hat/Witch Hat 3.png using Guid(fc5da31fdde959845a74203a4cea9e1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '713609e531fd50bad6273c8405d37b5e') in 0.015290 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 3.472108 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Diagonal (Color).jpg
+  artifactKey: Guid(2ce5c55e85304b819a1826ecbc839aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Diagonal (Color).jpg using Guid(2ce5c55e85304b819a1826ecbc839aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18fece60f42ab9311ab701454f58ab2e') in 0.013453 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Horizontal (Color).jpg
+  artifactKey: Guid(6eb184de103d4b3f812b38561065192f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Horizontal (Color).jpg using Guid(6eb184de103d4b3f812b38561065192f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32e61c68ff61ecb6c0dd624fdb63d29f') in 0.016232 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/President Items/Donald Trump/Used Golf Club/Assets/Textures/Golf Club Metalness.png
+  artifactKey: Guid(3ed7720b3d233e042af5012d1f9dd402) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/President Items/Donald Trump/Used Golf Club/Assets/Textures/Golf Club Metalness.png using Guid(3ed7720b3d233e042af5012d1f9dd402) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db4ed1c97c18f564bf52e9c818628808') in 0.022661 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/President Items/Donald Trump/Used Golf Club/Assets/Textures/Golf Club Normal.png
+  artifactKey: Guid(42c6cec95f2630347b7cfcf8e7caf10f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/President Items/Donald Trump/Used Golf Club/Assets/Textures/Golf Club Normal.png using Guid(42c6cec95f2630347b7cfcf8e7caf10f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f911a0c72221c54b21910c86319b9d96') in 0.030968 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.189492 seconds.
+  path: Assets/President Items/Donald Trump/Used Golf Club/Assets/Textures/Golf Club AO.png
+  artifactKey: Guid(b9b65d1f326799a46bc7cd8c9e64cf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/President Items/Donald Trump/Used Golf Club/Assets/Textures/Golf Club AO.png using Guid(b9b65d1f326799a46bc7cd8c9e64cf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66383447acac7d9405701940c0ad64e3') in 0.018720 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Little_GhostLP(FREE)/Texture/Ghost Kid/Ghost Kid Blooded1.png
+  artifactKey: Guid(362e38ff592561145b66565074f73fd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Little_GhostLP(FREE)/Texture/Ghost Kid/Ghost Kid Blooded1.png using Guid(362e38ff592561145b66565074f73fd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c190a56d1f872cd63515a49839c0a213') in 0.016393 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Little_GhostLP(FREE)/Texture/Ghost Kid/Ghost Kid Normal.png
+  artifactKey: Guid(94913b13d1da1934b8fd1a0de5b3b91b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Little_GhostLP(FREE)/Texture/Ghost Kid/Ghost Kid Normal.png using Guid(94913b13d1da1934b8fd1a0de5b3b91b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43c0e6412e5544b17c9f2e49b7d2ad27') in 0.015552 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/President Items/Donald Trump/Used Golf Club/Assets/Textures/Golf Club Diff.png
+  artifactKey: Guid(e98e6af403b308043b198ae11084dfda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/President Items/Donald Trump/Used Golf Club/Assets/Textures/Golf Club Diff.png using Guid(e98e6af403b308043b198ae11084dfda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dc1ffc8dc83e6bb07dddf0f3b1f69b1') in 0.017908 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Fruit Jelly (B&W).jpg
+  artifactKey: Guid(1cdc5b506b1a4a33a53c30669ced1f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Fruit Jelly (B&W).jpg using Guid(1cdc5b506b1a4a33a53c30669ced1f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9771122c95a65279ac02bd0635b0edaf') in 0.020208 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/President Items/Obama/Coconut Palm Tree Pack/Textures/Parts/Frond_Stem_normal.psd
+  artifactKey: Guid(b199c89962c042844bb5d19f31b84dc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/President Items/Obama/Coconut Palm Tree Pack/Textures/Parts/Frond_Stem_normal.psd using Guid(b199c89962c042844bb5d19f31b84dc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '815f80c0a7de7085c5144199d77f1c9a') in 0.014799 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/President Items/Obama/Coconut Palm Tree Pack/Textures/Parts/Frond_Stem_gloss.psd
+  artifactKey: Guid(a4f433611f808d1438bab86f9c2b87ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/President Items/Obama/Coconut Palm Tree Pack/Textures/Parts/Frond_Stem_gloss.psd using Guid(a4f433611f808d1438bab86f9c2b87ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a69d109bc1a62b71ed2012c12f902f1') in 0.011523 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.017362 seconds.
+  path: Assets/President Items/Obama/Coconut Palm Tree Pack/Textures/Parts/Frond_Stem_diffuse.psd
+  artifactKey: Guid(faafacff7a1fd6a48b83ae94bba129eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/President Items/Obama/Coconut Palm Tree Pack/Textures/Parts/Frond_Stem_diffuse.psd using Guid(faafacff7a1fd6a48b83ae94bba129eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a9a8b190fd65318aff2dfa9e1a367ab') in 0.018934 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.245705 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Floor Tiles 1 - diffuse.jpg
+  artifactKey: Guid(85ac55597b97403c82fc6601a93cf241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Floor Tiles 1 - diffuse.jpg using Guid(85ac55597b97403c82fc6601a93cf241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f6815d41d2000ab536c0b0c9b7306dd') in 0.016320 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.007401 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Floor Cement.jpg
+  artifactKey: Guid(283f897e4925411ebbaa758b4cb13fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Floor Cement.jpg using Guid(283f897e4925411ebbaa758b4cb13fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'beafad4a504561426a3241b8f1fb15d5') in 0.015141 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 8.642156 seconds.
+  path: Assets/TextMesh Pro/Sprites/EmojiOne.png
+  artifactKey: Guid(dffef66376be4fa480fb02b19edbe903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Sprites/EmojiOne.png using Guid(dffef66376be4fa480fb02b19edbe903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20c005dfd81374012843eb235533966a') in 0.025951 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1261.449043 seconds.
+  path: Assets/Images/Tcharacter.blend
+  artifactKey: Guid(362570547b698614e8a52313333aa072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Tcharacter.blend using Guid(362570547b698614e8a52313333aa072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7b1f4c07195709c18bf7c78d69c31a1') in 0.164397 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
