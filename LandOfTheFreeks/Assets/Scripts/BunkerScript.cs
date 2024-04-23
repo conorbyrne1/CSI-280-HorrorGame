@@ -23,7 +23,7 @@ public class BunkerScript : MonoBehaviour
         if(other.gameObject.CompareTag("Player"))
         {
             BunkerUI.SetActive(true);
-            Debug.Log("Player in the swag zone");
+          //  Debug.Log("Player in the swag zone");
             Cursor.lockState = CursorLockMode.None;
             Cursor.visible = true;
         }
@@ -33,7 +33,7 @@ public class BunkerScript : MonoBehaviour
         if (other.gameObject.CompareTag("Player"))
         {
             BunkerUI.SetActive(false);
-            Debug.Log("Player deies");
+         //   Debug.Log("Player deies");
             Cursor.lockState = CursorLockMode.Locked;
             Cursor.visible = false;
         }
